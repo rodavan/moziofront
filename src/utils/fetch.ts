@@ -2,7 +2,7 @@
 import axios from "axios";
 
 // Define host const
-const host = "https://mozio-front-back.onrender.com/";
+const host = "https://mozio-front-back.onrender.com";
 
 export const find = async (city: string) => {
   const res = await axios.get(`${host}/find/${city}`);
